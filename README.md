@@ -1,2 +1,31 @@
-# Local-file-to-Youtube-4k-stream
+# How to use it
 Local file to youtube 4k stream by ffmpeg
+
+# STEP 1:
+
+Before doing anything you need to have “ffmpeg” already installed in your system . You can install it through Software manager ( Software Center) or command line terminal. Here the command for installing “ffmpeg”.
+
+sudo apt-get install ffmpeg
+
+# STEP 2:
+Download the file of script “streem.sh” from this link : https://raw.githubusercontent.com/shivsingh7150/Local-file-to-Youtube-4k-stream/master/streem.sh.
+
+# Make Changes
+
+Edit file and update your Key RTMP (if need)
+
+
+# Give permsion by 
+
+chmod +x streem.sh
+
+# Run
+
+./streem.sh
+
+# Check
+
+Wait for few seconds and open the YouTube live dashboard page. You would now see the status changed from OFFLINE to ONLINE. To close the live streaming, just go to the terminal again and press “Ctrl+c” to stop the process. The live streaming would automatically stop and the video archive would be exported to the video manager of your YouTube channel.
+
+
+
