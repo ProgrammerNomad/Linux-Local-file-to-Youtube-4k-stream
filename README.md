@@ -9,7 +9,7 @@ Before doing anything you need to have “ffmpeg” already installed in your sy
 sudo apt-get install ffmpeg
 ```
 
-If you have centos this please check this instaltion guid : https://linuxize.com/post/how-to-install-ffmpeg-on-centos-7/
+If you have centos this please check this installation guide : https://linuxize.com/post/how-to-install-ffmpeg-on-centos-7/
 
 ## STEP 2:
 Download the file of script “streem.sh” from this link : https://raw.githubusercontent.com/shivsingh7150/Local-file-to-Youtube-4k-stream/master/streem.sh.
