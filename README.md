@@ -16,7 +16,7 @@ Download the file of script “streem.sh” from this link : https://raw.githubu
 
 ## Make Changes
 
-Edit file and update your Key RTMP (if need)
+Edit file and update your Key and RTMP (if need)
 
 
 ## Give permsion by 
