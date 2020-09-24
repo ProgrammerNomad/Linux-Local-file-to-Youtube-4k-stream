@@ -31,6 +31,12 @@ chmod +x stream.sh
 ./stream.sh
 ```
 
+## Inline Code
+
+```bash
+ffmpeg -stream_loop -1 -re -i live_08312020.mp4 -c:v libx264 -b:v 2M -c:a copy -strict -2 -flags +global_header -bsf:a aac_adtstoasc -bufsize 2100k -f flv rtmp://a.rtmp.youtube.com/live2/[live-key]
+```
+
 ## Check
 
 Wait for few seconds and open the YouTube live dashboard page. You would now see the status changed from OFFLINE to ONLINE. To close the live streaming, just go to the terminal again and press “Ctrl+c” to stop the process. The live streaming would automatically stop and the video archive would be exported to the video manager of your YouTube channel.
